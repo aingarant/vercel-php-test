@@ -2,12 +2,12 @@
 
 if ($_SERVER[REQUEST_METHOD] === 'POST') {
 
-  print_r($_POST)
+  pecho "something post";
 }
 
 else {
   
-    echo "Only POST requests are allowed";
+    return echo "Only POST requests are allowed";
   
 }
 
